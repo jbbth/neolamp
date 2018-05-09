@@ -4,10 +4,16 @@
 
 */
 
-#define LAMP_NAME                       "lamp01"
+// mqtt setup
+#define LAMP_NAME                       "lamp1"
 #define ROOM                            "livingroom"
 
-const char* ssid = "fancyssid";
+// neopixel setup
+const int pin = 2;
+const int n_pixels = 150;
+
+// wifi setup
+const char* ssid = "fancywifissid";
 const char* password = "supersecretpassword";
 const char* mqtt_server = "broker.home"; // ip or hostname
 
