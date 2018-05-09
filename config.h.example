@@ -1,0 +1,13 @@
+/*
+ 
+ global config vars
+
+*/
+
+#define LAMP_NAME                       "lamp01"
+#define ROOM                            "livingroom"
+
+const char* ssid = "fancyssid";
+const char* password = "supersecretpassword";
+const char* mqtt_server = "broker.home"; // ip or hostname
+
